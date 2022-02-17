@@ -1,0 +1,21 @@
+# Exclude locally vendored dependencies.
+vendor/
+
+# Exclude "build-time" ignore files.
+.dockerignore
+.gcloudignore
+
+# Exclude git history and configuration.
+.gitignore
+
+# Exclude unit testing files
+*_test.go
+*.xml
+*.out
+
+# Exclude shell scripts
+*.sh
+
+# Other
+Jenkinsfile
+Makefile
