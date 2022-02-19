@@ -1,5 +1,6 @@
 dep:
-	go get -u github.com/jstemmer/go-junit-report
+	# go get -u github.com/jstemmer/go-junit-report
+	go install github.com/jstemmer/go-junit-report@c0.9.1
 	go mod tidy
 
 test: dep
