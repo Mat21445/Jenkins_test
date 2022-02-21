@@ -10,9 +10,9 @@ COPY go.mod ./
 COPY go.sum ./
 
 RUN go mod download
-COPY ./templates ./
+# COPY ./templates ./
 
-ADD templates ./templates
+# ADD templates ./templates
 
 COPY ./* ./
 RUN go build -o /Jenkins_test
