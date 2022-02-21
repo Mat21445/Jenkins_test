@@ -4,7 +4,7 @@ pipeline {
         go 'go-1.17.7'
     }
     environment {
-        registry = "mat21445/Jenkins_test"
+        registry = "mat21445/jenkins_test"
         registryCredential = 'DockerHub'
         dockerImage = ''
     }
